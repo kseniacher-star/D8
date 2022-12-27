@@ -1,0 +1,346 @@
+body{
+    font-family:  medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'gt-font';
+    src: local('font_name'), url('/D8/assets/GT-Super-Display-Regular-Trial.otf') format('truetype');
+ }
+
+@font-face {
+    font-family: 'open-font';
+    src: local('font_name'), url('/D8/assets/OpenSans-Semibold.ttf') format('truetype');
+ }
+
+/* MENU' FISSO GIALLO */
+
+header {
+    border-bottom: black 1px solid;
+    background-color: rgb(255, 192, 23);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    padding-top: 9px;
+    height: 45px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+nav {
+    padding: 1.5rem;
+    margin-right: 140px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+nav span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.started {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* CONTENITORE CON IMG  TESTO*/
+
+main {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 192, 23);
+    border-bottom: black 1px solid;
+}
+
+main div {
+    margin-left: 140px;
+}
+
+.text {
+    padding-top: 120px;
+}
+
+.title {
+    font-family: gt-font;
+    font-size: 100px;
+}
+
+.text p {
+    font-family: open-font;
+    font-size: 24px;
+    margin-bottom: -1rem;
+}
+
+.bottom-start {
+    font-family:"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+/* PRIMO FLEX CON ARTICOLI X6*/
+
+.flex-content {
+    border-bottom: black 1px solid;
+}
+
+.content {
+    
+    padding-top: 40px; 
+    border-bottom: rgba(117, 117, 117, 0.3) 1px solid;
+    
+}
+
+.title-content {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.flex-art  {
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+}
+
+.box img {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 24px;
+}
+
+.number {
+    font: open-font;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    opacity: 20%;
+}
+
+.head-title {
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;   
+}
+
+.head-title img {
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.text-box {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.main-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-text {
+    color: grey;
+    z-index: 2;
+    font-size: 13px;
+}
+
+.footer-text i {
+    color: rgb(255, 192, 23);
+    cursor: pointer;
+}
+
+/*ULTIMO BLOCCO*/
+
+.last-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+}
+
+/*SECONDO FLEX A COLONNA*/
+
+.nd-content {
+    padding-top: 40px;
+}
+
+.nd-flex-art {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+/*PROPRIETA' DEL SECONDO BOX*/
+
+.nd-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 24px;
+}
+
+.img-logo {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nd-text-box {
+    width: 500px;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.img-box {
+    width: 200px;
+    height: 134px;
+    object-fit: cover;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+.bookmark i{
+    text-align: end;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.nd-footer-text {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    color: grey;
+    font-size: 13px;
+}
+
+.star i {
+    color: rgb(255, 192, 23);
+    cursor: 3;
+}
+
+.button {
+    background-color: rgba(117, 117, 117, 0.05);
+    border-radius: 20px;
+    color: grey;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+}
+
+.button:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+
+/* FOOTER CON MENU DI FONDO*/
+
+aside {
+    font-family:   medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 350px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.more {
+    font-family: open-font;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;       
+    margin-left: 0;   
+    display: flex;   
+    flex-wrap: wrap;  
+}
+
+.list-topic li {
+    border: solid 1px rgba(128, 128, 128, 0.347) ;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+.topic {
+    border-bottom: solid 1px rgba(128, 128, 128, 0.347) ;
+}
+
+ol {
+    list-style-type: none; 
+    padding-left: 0;       
+    margin-left: 0;   
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+.list-menu li {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
